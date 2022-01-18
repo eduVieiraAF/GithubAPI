@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GithubAPI</string>
+    <string name="author_mask">Created by %s</string>
+</resources>
