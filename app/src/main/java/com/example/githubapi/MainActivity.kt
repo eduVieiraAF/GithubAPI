@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun initRecyclerView() {
 
-        recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
+        recyclerView = findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(this)
         recyclerViewAdapter = RecyclerViewAdapter()
         recyclerView.adapter = recyclerViewAdapter
@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        mainActivityViewModel.makeAPICal()
+        mainActivityViewModel.makeAPICal(paginating = false)
     }
 
     private fun initRefreshListener() {
@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
 
             Toast.makeText(this, "Data has been refreshed", Toast.LENGTH_SHORT)
                 .show()
-            mainActivityViewModel.makeAPICal()
+            mainActivityViewModel.makeAPICal(paginating = false)
             swipeRefreshLayout.isRefreshing = false
         }
     }
