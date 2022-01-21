@@ -9,5 +9,5 @@ interface RetroService {
 
     @GET("repositories")
     fun getAPIData(@Query("q") query: String, @Query("page") page: Int,
-        @Query("per_page") pageSize: Int = 20): Call<RecyclerList>?
+        @Query("per_page") pageSize: Int = 50): Call<RecyclerList>?
 }
