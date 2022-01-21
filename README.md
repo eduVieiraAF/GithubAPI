@@ -6,6 +6,7 @@
 - Author's name;
 - Endless scrolling (through manual pagination);
 - Swipe to refresh;
-- Screen rotation without losing state.
+- Screen rotation without losing state;
+- Splash Screen.
 
 </> Coded using Retrofit, Dagger, MVVM and Glide.
