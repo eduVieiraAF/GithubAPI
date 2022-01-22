@@ -12,6 +12,8 @@ class SplashScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
+        supportActionBar?.hide()
+
         val gitSplashIV = findViewById<ImageView>(R.id.IV_git_splash)
 
         gitSplashIV.alpha = 0f
