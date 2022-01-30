@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
     tools:context=".MainActivity">
 
     <com.google.android.material.card.MaterialCardView
@@ -13,6 +14,7 @@
         app:cardCornerRadius="12dp"
         android:elevation="8dp"
         app:strokeWidth="2dp"
+        android:layoutAnimation="@anim/layout_animation"
         android:layout_margin="3dp"
         app:strokeColor="@color/prussian_blue"
         app:layout_constraintTop_toTopOf="parent"
@@ -76,6 +78,7 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="match_parent"
+            tools:listitem="@layout/recycler_view_list_row"
             android:layout_height="0dp" />
 
     </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

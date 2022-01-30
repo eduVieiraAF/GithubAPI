@@ -6,11 +6,15 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal">
 
-<androidx.cardview.widget.CardView
+<com.google.android.material.card.MaterialCardView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="3dp"
+    app:strokeWidth="1dp"
+    android:layoutAnimation="@anim/layout_animation"
+    app:strokeColor="@color/white"
+    android:layout_margin="2dp"
     app:cardCornerRadius="22dp"
+
     android:backgroundTint="@color/blissful_blue">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -130,6 +134,6 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
-</androidx.cardview.widget.CardView>
+</com.google.android.material.card.MaterialCardView>
 
 </LinearLayout>

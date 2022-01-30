@@ -80,7 +80,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "Data has been refreshed", Toast.LENGTH_SHORT)
                 .show()
             mainActivityViewModel.makeAPICal(paginating = false)
-            swipeRefreshLayout.isRefreshing = false
+                        swipeRefreshLayout.isRefreshing = false
         }
     }
 
