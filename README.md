@@ -9,4 +9,4 @@
 - Screen rotation without losing state;
 - Splash Screen.
 
-</> Coded using Retrofit, Dagger, MVVM and Glide.
+## </> Coded using Retrofit, Dagger, MVVM and Glide.
