@@ -1,4 +1,5 @@
 # GithubAPI Challenge 📲
+
 ## Design an APP to fetch and place, in a RecyclerView, a GitHub API which displays:
 - Repository name;
 - Stars;
@@ -7,6 +8,7 @@
 - Endless scrolling (through manual pagination);
 - Swipe to refresh;
 - Screen rotation without losing state;
-- Splash Screen.
+- Splash Screen;
+- Some animation.
 
 ## </> Coded using Retrofit, Dagger, MVVM and Glide.
